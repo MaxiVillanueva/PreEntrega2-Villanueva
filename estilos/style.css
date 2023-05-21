@@ -16,7 +16,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    padding-top: 1rem;
 }
 
 .paganilogo img{
@@ -41,24 +41,31 @@
 }
 
 .link a:hover{
-    font-size: 1.6rem;
+    font-size: 2rem;
     transition: font-size 0.5s ease; /* Transición de medio segundo */
 }
 
+.link a:not(:hover) {
+  font-size: 1.5rem;
+  transition: font-size 0.5s ease;
+}
+
 .h1-index{
+    font-size: 3rem;
     color: antiquewhite;
-    margin-left: 12rem;
-    margin-top: 4rem;
+    margin-left: 14rem;
+    margin-top: 5rem;
 }
 
 .contenedor-index{
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'Great Vibes', cursive;
     color: antiquewhite;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 7rem;
 }
 
 .item-fixed1, .item-fixed2, .item-fixed3, .item-fixed4{
@@ -69,5 +76,17 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-end;
+}
+
+.h4-index{
+    color: rgba(240, 248, 255, 0.096);
+    position: fixed;
+    bottom: 2px;
+    left: 8px;
+}
+
+.contenedor-redes{
+    position: fixed;
+    bottom: 2px;
+    right: 8px;
 }
