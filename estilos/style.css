@@ -13,7 +13,6 @@
 }
 
 .banner{
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding-top: 1rem;
@@ -64,8 +63,7 @@
 }
 
 
-.contenedor-index{
-    font-size: 6.7rem;
+.divv-extra{
     font-family: 'Great Vibes', cursive;
     color: antiquewhite;
     display: flex;
