@@ -15,7 +15,7 @@
 .banner{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: rgba(205,154,154,0);
@@ -25,7 +25,7 @@
 }
 
 .paganilogo img{
-    height: 30px;
+    height: 27px;
 }
 
 .paganilogo{
@@ -38,7 +38,7 @@
 
 .link a{
     font-size: 1.5rem;
-    color: black;
+    color: rgba(0, 0, 0, 0.671);
     text-decoration: none;
     font-family: 'Goldman', cursive;
     font-family: 'Gruppo', cursive;
@@ -57,22 +57,22 @@
 }
 
 .h1-index{
-    font-size: 3rem;
-    color: antiquewhite;
-    margin-left: 14rem;
-    margin-top: 5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(196, 183, 163, 0.527);
+    margin-top: 2rem;
 }
 
 
 .contenedor-index{
-    font-size: 6rem;
+    font-size: 6.7rem;
     font-family: 'Great Vibes', cursive;
     color: antiquewhite;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
 
 }
 
@@ -87,7 +87,7 @@
 }
 
 .h4-index{
-    color: rgba(240, 248, 255, 0.096);
+    color: rgba(240, 248, 255, 0.281);
     position: fixed;
     bottom: 2px;
     left: 8px;
