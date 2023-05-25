@@ -13,6 +13,7 @@
 }
 
 .banner{
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding-top: 1rem;
@@ -58,14 +59,16 @@
 .h1-index{
     text-align: center;
     font-size: 2.5rem;
-    color: rgba(196, 183, 163, 0.527);
+    color: rgba(255, 247, 234, 0.486);
     margin-top: 2rem;
 }
 
 
-.divv-extra{
+.contenedor-index{
+    font-size: 6rem;
     font-family: 'Great Vibes', cursive;
     color: antiquewhite;
+    /* dipley flex */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -99,4 +102,10 @@
 
 .contenedor-redes a{
     text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    .contenedor-redes{
+        display: none;
+    }
 }
