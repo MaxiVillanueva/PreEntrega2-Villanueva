@@ -115,7 +115,7 @@
 
 /* tablets */
 @media screen and (max-width:850px){
-    .contenedor-redes, .link{
+    .contenedor-redes, .link, .linkhyper{
         display: none;
     }
 
@@ -123,6 +123,10 @@
         margin-top: 11rem;
         font-size: 5rem;
     }
+
+    .contenedor-hyper{
+        align-items: flex-start;
+    } 
 }
 
 /* celulares */
@@ -152,7 +156,7 @@
     overflow: hidden;
   }
   
-  .icono-hamburguesa {
+.icono-hamburguesa {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -161,7 +165,7 @@
     z-index: 1;
   }
   
-  .opciones-menu {
+.opciones-menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -178,7 +182,7 @@
     align-items: center;
   }
   
-  .opciones-lista {
+.opciones-lista {
     font-size: 30px;
     list-style: none;
     padding: 0;
@@ -188,25 +192,25 @@
     font-family: 'Gruppo', cursive;
   }
   
-  .opciones-lista li {
+.opciones-lista li {
     margin-bottom: 10px;
   }
   
-  .opciones-lista li a {
+.opciones-lista li a {
     color: #fff;
     text-decoration: none;
   }
   
-  .checkbox-toggle {
+.checkbox-toggle {
     display: none;
   }
   
-  .checkbox-toggle:checked ~ .opciones-menu {
+.checkbox-toggle:checked ~ .opciones-menu {
     transform: translateX(0);
   }
   
   
-  .redes-sociales {
+.redes-sociales {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,11 +220,77 @@
     padding-bottom: 20px;
   }
   
-  .redes-sociales a {
+.redes-sociales a {
     margin: 10px;
   }
   
-  .redes-sociales img {
+.redes-sociales img {
     width: 50px;
     height: 50px;
   }
+
+.bodyhyper{
+    background-image: url(../img/5594016.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.bannerhyper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(0, 0, 0);
+}
+
+.linkhyper{
+    list-style: none;
+}
+
+.linkhyper a{
+    font-size: 1.5rem;
+    color: rgba(253, 249, 249, 0.671);
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+.linkhyper a:hover{
+    font-size: 2rem;
+    transition: font-size 0.5s ease; /* Transición de medio segundo */
+
+}
+
+.linkhyper a:not(:hover) {
+  font-size: 1.5rem;
+  transition: font-size 0.5s ease;
+}
+
+.h3-hyper{
+    color: rgba(0, 0, 0, 0.185);
+    position: fixed;
+    bottom: 2px;
+    left: 8px;
+}
+
+.mainhyper div div img{
+    height: 550px;
+}
+
+.contenedor-hyper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.bodyhistoria{
+    background-image: url(../img/patron-de-lineas-negro_7680x4320_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
