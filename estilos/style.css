@@ -126,7 +126,9 @@
 
     .contenedor-hyper{
         align-items: flex-start;
-    } 
+    }
+
+    
 }
 
 /* celulares */
@@ -293,4 +295,137 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+}
+
+.bannerhistoria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(255, 255, 255);
+}
+
+.h3-historia{
+    color: rgba(255, 255, 255, 0.185);
+    position: fixed;
+    bottom: 2px;
+    left: 8px;
+}
+
+.h1-historia{
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+.h2-historia, .p-historia, .h1-historia{
+    color: azure;
+}
+
+main div div img{
+    height: 450px;
+}
+
+.contenedor-historia{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.bodydealer{
+    background-image: url(../img/paganirojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.h1-dealers{
+    margin: 4rem;
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+.maps{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.maps{
+    height: 30rem;
+}
+
+.h2-dealers{
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.bodycontacto{
+    background-image: url(../img/9dbfe5d9f34ffafd2c5ba2a2d0867be0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.h1-hyper{
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+.h1-contacto{
+    margin: 4rem;
+    font-family: 'Goldman', cursive;
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+/*  */
+
+.formulario{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-dentro-formulario{
+    font-size: 30px;
+    background-color: #e2e2e257;
+    padding: 15px;
+}
+
+.form{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.h2-contacto{
+    color: antiquewhite;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.p-contacto{
+    margin-top: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.h3-contacto{
+    color: rgba(0, 0, 0, 0.678);
+    position: fixed;
+    bottom: 2px;
+    left: 8px;
 }

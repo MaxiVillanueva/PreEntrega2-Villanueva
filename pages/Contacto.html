@@ -12,25 +12,49 @@
 </head>
 <body class="bodycontacto">
     <header>
-        <div class="banner1">
-            <nav>
-                <ul>
 
-                    <li class="clas1">
+        <!-- menu hamburguesa oculto para pc. Solo para tablet y celulares -->
+
+        <div class="menu-hamburguesa">
+            <input type="checkbox" id="toggle" class="checkbox-toggle">
+            <label for="toggle" class="icono-hamburguesa">&#9776;</label>
+            <nav class="opciones-menu">
+              <input type="checkbox" id="toggle" class="checkbox-toggle">
+              <label for="toggle" class="icono-hamburguesa">&#9776;</label>
+              <ul class="opciones-lista">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/Historia.html">Historia</a></li>
+                <li><a href="../pages/HyperCars.html">HyperCars</a></li>
+                <li><a href="../pages/Dealers.html">Dealers</a></li>
+              </ul>
+              <div class="redes-sociales">
+                <a href="https://www.youtube.com/user/PaganiAutomobili" target="_blank" ><img src="../img/youtube-logo-icone-noir.png" alt="Logo de youtube"></a>
+                <a href="https://www.instagram.com/paganiautomobili/" target="_blank" ><img src="../img/ig-logo-png.png" alt="Logo de Instagram"></a>
+                <a href="https://twitter.com/OfficialPagani" target="_blank" ><img src="../img/twitter logo.png" alt="Logo de Twitter"></a>
+                <a href="https://www.pinterest.it/paganiofficial/" target="_blank" ><img src="../img/logo-pinterest-noir.png" alt="Logo Pinterest"></a>
+              </div>
+            </nav>
+        </div>
+
+        <div>
+            <nav>
+                <ul class="banner">
+
+                    <li class="link">
                         <a href="../pages/Dealers.html">Dealers</a>
                     </li>
 
-                    <li class="clas1">
+                    <li class="link">
                         <a href="../index.html">Home</a> 
                     </li>
 
-                    <li><img src="../img/PaganiLogo.png" alt="Logo de pagani"></li>
+                    <li class="paganilogo"><img src="../img/PaganiLogo.png" alt="Logo de pagani"></li>
 
-                    <li class="clas1">
+                    <li class="link">
                         <a href="../pages/Historia.html">Historia</a>                       
                     </li>
 
-                    <li class="clas1">
+                    <li class="link">
                         <a href="../pages/HyperCars.html">HyperCars</a> 
                     </li>
 
@@ -41,12 +65,12 @@
     </header>
 
     <main>
-        <h1 class="huno">
+        <h1 class="h1-contacto">
             <i>Contacto</i>
         </h1>
 
         <form class="formulario">
-            <fieldset class="classs">
+            <fieldset class="contenedor-dentro-formulario">
 
                 <legend> Completa tus datos </legend>
 
@@ -94,32 +118,54 @@
             </fieldset>
         </form>
 
-        <h2 class="h2contacto">
-            PAGANI AUTOMOBILI
+        <h2 class="h2-contacto">
+            <span style="background-color: #1b1b1b77;">PAGANI AUTOMOBILI</span>
         </h2>
 
-        <p class="pcontacto">
-            Horacio Pagani S.P.A.
+        <p class="p-contacto">
+            <span style="background-color: #1b1b1b77;">Horacio Pagani S.P.A.
+            </span>
 
-            Legal address: Via dell’Artigianato, 5 – Vill. La Graziosa 41018 San Cesario sul Panaro (MO) Italy
+            <br><span style="background-color: #1b1b1b77;">Legal address: Via dell’Artigianato, 5 – Vill. La Graziosa 41018 San Cesario sul Panaro (MO) Italy</span>
             
-            Operations address: Via dell’Industria, 26 – Vill. La Graziosa 41018 San Cesario sul Panaro (MO) Italy
-            Tel. +39 059 4739201 – info@pagani.com
-            Sales department: sales@pagani.com
+            <br><span style="background-color: #1b1b1b77;"> Operations address: Via dell’Industria, 26 – Vill. La Graziosa 41018 San Cesario sul Panaro (MO) Italy </span>
+
+            <br><span style="background-color: #1b1b1b77;">Tel. +39 059 4739201 – info@pagani.com</span> 
+
+            <br><span style="background-color: #1b1b1b77;">Sales department: sales@pagani.com</span>  
         </p>
     </main>
 
-    <footer>
-        <h3 class="item-fixed6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </h3>
+    <footer class="contenedor-footer">
 
-        <div>
-            <img class="item-fixed2" src="../img/youtube-logo-icone-noir.png" alt="Logo de Youtube">
-            <img class="item-fixed3" src="../img/ig-logo-png.png" alt="Logo de Instagram">
-            <img class="item-fixed4" src="../img/twitter logo.png" alt="Logo de Twitter">
-            <img class="item-fixed5" src="../img/logo-pinterest-noir.png" alt="Logo Pinterest">
+        <div class="h3-contacto">
+            <h3 class="fs-6">
+                © 2023 Horacio Pagani S.P.A. - rights reserved
+            </h3>
         </div>
+
+        <div class="contenedor-redes">
+            <div>
+
+                <a href="https://www.youtube.com/user/PaganiAutomobili" target="_blank" >
+                    <img class="item-fixed1" src="../img/youtube-logo-icone-noir.png" alt="Logo de Youtube">
+                </a>
+
+                <a href="https://www.instagram.com/paganiautomobili/" target="_blank" >
+                    <img class="item-fixed2" src="../img/ig-logo-png.png" alt="Logo de Instagram">
+                </a>
+                
+                <a href="https://twitter.com/OfficialPagani" target="_blank" >
+                    <img class="item-fixed3" src="../img/twitter logo.png" alt="Logo de Twitter">
+                </a>
+
+                <a href="https://www.pinterest.it/paganiofficial/" target="_blank" >
+                    <img class="item-fixed4" src="../img/logo-pinterest-noir.png" alt="Logo Pinterest">
+                </a>
+
+            </div>
+        </div>
+
     </footer>
 </body>
 </html>
